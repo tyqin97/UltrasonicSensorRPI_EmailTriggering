@@ -1,12 +1,10 @@
 # UltrasonicSensor RPI with Email Triggering Function 📧
 
-This tutorial will show you guys on how to use the Ultrasonic Sensors (HC-SR04) on Raspberry Pi 4. 
+This tutorial will show you guys on how to use the Ultrasonic Sensors (HC-SR04) on Raspberry Pi 4. To make this tutorial more interesting, I have added a simple additional thing which is email triggering function.
 
-To make this tutorial more interesting, I have added a simple additional thing which is email triggering function.
+The Ultrasonic Sensor will keep tracking the distance until the distance fall below certain level, the alarm will be trigger and send an email to someone with the timestamp and the distance recorded. Other than that, the Raspberry Pi 4 will also save a text file of the distance recorded when the alarm triggered.
 
-The email triggering function will need to user to input the email address and the password ⚠(THIS MIGHT CAUSED SAFETY ISSUES).
-
-Anyway, this tutorial is just for testing purposes, Just don't share to others before remove your credentials in the codes.
+The email triggering function will need to user to input the email address and the password ⚠(THIS MIGHT CAUSED SAFETY ISSUES). Anyway, this tutorial is just for testing purposes, Just don't share to others before remove your credentials in the codes.
 
 ## The Pin Layout for the Raspberry Pi 4 B+ 📌🤏
 <p align="center">
@@ -19,11 +17,18 @@ Anyway, this tutorial is just for testing purposes, Just don't share to others b
 </p>
 
 The Trigger and Echo Pin will be placed on GPIO7 and GPIO11 accordingly
+
 ```
 # Define GPIO Pin location
 PIN_TRIGGER = 7
 PIN_ECHO = 11
 ```
+
+The setup has done, you should be able to run the codes without any major error.
+
+You can now try and play with other microcontrollers or add on some new features to make it more interesting. 
+
+Good Luck and Have Fun Coding Whole Day Everyday! ☕
 
 ### Try it now! 💥
 
