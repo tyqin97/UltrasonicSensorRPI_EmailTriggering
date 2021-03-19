@@ -25,5 +25,5 @@ PIN_TRIGGER = 7
 PIN_ECHO = 11
 ```
 
-
+### Try it now! 💥
 
