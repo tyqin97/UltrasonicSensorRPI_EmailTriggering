@@ -30,5 +30,5 @@ You can now try and play with other microcontrollers or add on some new features
 
 Good Luck and Have Fun Coding Whole Day Everyday! ☕
 
-### Try it now! 💥💥
+### Try it now! 💥💥💥
 
