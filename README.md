@@ -16,7 +16,7 @@ The email triggering function will need to user to input the email address and t
   <img src="https://microcontrollerslab.com/wp-content/uploads/2014/12/HC-SR04-Ultrasonic-Sensor-Pinout-diagram-768x546.jpg" width="500" height="350"/>
 </p>
 
-The Trigger and Echo Pin will be placed on GPIO7 and GPIO11 accordingly
+The Trigger and Echo Pin will be placed on GPIO7 and GPIO11 accordingly (You may change as your preferences)
 
 ```
 # Define GPIO Pin location
